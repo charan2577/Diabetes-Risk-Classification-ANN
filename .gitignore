@@ -1,0 +1,39 @@
+# Byte-compiled / optimised / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.env/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dataset files (large CSV files)
+data/*.csv
+data/*.zip
+
+# Trained model files
+models/*.pkl
+models/*.joblib
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Reports generated at runtime
+reports/figures/*.png
+reports/figures/*.jpg
+reports/*.html
+.venv/
+.pytest_cache/
+.env
+.streamlit/secrets.toml
